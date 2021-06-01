@@ -1,4 +1,6 @@
 
+# Full Encryption + USB Key At Boot
+
 Change Local Group Policy Editors Settings
 
 start menu
@@ -6,7 +8,7 @@ gpedit.msc
 right click and open as administrator
 browse to 
 
-# Full Encryption + USB Key At Boot
+
 
 Administrative Templates 
 '-> Windows Components
