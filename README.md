@@ -3,23 +3,22 @@
 
 Change Local Group Policy Editors Settings
 
-start menu
-gpedit.msc
-right click and open as administrator
-browse to 
+    1. start menu
+    2. type: gpedit.msc
+    3. right click and open as administrator
 
+Now browse to 
 
-
-Administrative Templates 
-'-> Windows Components
-  '-> Bitlocker Drive Encryption
-    '-> Operating System Drives
-     '-> Require Additional Authentication At Startup
-      '-> Press enable
+    Administrative Templates 
+    '-> Windows Components
+      '-> Bitlocker Drive Encryption
+        '-> Operating System Drives
+         '-> Require Additional Authentication At Startup
+          '-> Press enable
 
 ### Settings should be set as:
 
-![Screenshot](pics/group_policys.png)
+![Screenshot](pics/gropy_policys.png)
 
       Configure TPM startup: Allow TPM
       Configure TPM Startup PIN: Allow Startup with TPM
